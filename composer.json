@@ -1,0 +1,24 @@
+{
+    "name": "tejuino/admin",
+    "description": "Tejuino admin platform V2",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rafael Alfaro",
+            "email": "rafael@tejuino.mx"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tejuino\\Admin\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tejuino\\Admin\\AdminServiceProvider"
+            ]
+        }
+    }
+}
